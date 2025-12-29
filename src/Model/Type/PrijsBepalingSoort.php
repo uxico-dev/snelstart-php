@@ -19,7 +19,7 @@ use MyCLabs\Enum\Enum;
  * @method static PrijsBepalingSoort AFSPRAAKPERKLANTPERARTIKELKORTINGSGROEP()
  * @method static PrijsBepalingSoort AFSPRAAKPERARTIKELKORTINGSGROEPPERKLANTKORTINGSGROEP()
  */
-final class PrijsBepalingSoort extends Enum
+class PrijsBepalingSoort extends Enum
 {
     private const NORMALEVERKOOPPRIJS                                   = 'NormaleVerkoopprijs';
     private const ACTIEPRIJZENPERARTIKEL                                = 'ActieprijzenPerArtikel';

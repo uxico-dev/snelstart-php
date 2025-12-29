@@ -16,7 +16,7 @@ use SnelstartPHP\Model\V2\Prijsafspraak;
 use SnelstartPHP\Model\V2\Relatie;
 use SnelstartPHP\Model\V2\SubArtikel;
 
-final class ArtikelMapper extends AbstractMapper
+class ArtikelMapper extends AbstractMapper
 {
     public function find(ResponseInterface $response): ?Artikel
     {

@@ -9,7 +9,7 @@ namespace SnelstartPHP\Model\V2;
 use SnelstartPHP\Exception\PreValidationException;
 use SnelstartPHP\Model\SnelstartObject;
 
-final class ArtikelOmzetgroep extends SnelstartObject
+class ArtikelOmzetgroep extends SnelstartObject
 {
     /**
      * Omzetgroep nummer

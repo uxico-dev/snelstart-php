@@ -16,7 +16,7 @@ use SnelstartPHP\Model\Type\VerkooporderBtwIngave;
 use SnelstartPHP\Model\Type\VerkooporderStatus;
 use SnelstartPHP\Snelstart;
 
-final class Verkooporder extends SnelstartObject
+class Verkooporder extends SnelstartObject
 {
     /**
      * @var Relatie|null

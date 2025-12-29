@@ -9,7 +9,7 @@ use SnelstartPHP\Mapper\AbstractMapper;
 use SnelstartPHP\Model\V2\Relatie;
 use SnelstartPHP\Model\V2\Relatie\DoorlopendeIncassoMachtiging;
 
-final class DoorlopendeIncassoMachtigingMapper extends AbstractMapper
+class DoorlopendeIncassoMachtigingMapper extends AbstractMapper
 {
     public function findByRelatie(ResponseInterface $response): \Generator
     {

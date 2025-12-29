@@ -17,7 +17,7 @@ use SnelstartPHP\Request\V1\LandRequest;
 /**
  * @deprecated
  */
-final class LandConnector extends BaseConnector
+class LandConnector extends BaseConnector
 {
     public function find(UuidInterface $id): ?\SnelstartPHP\Model\Land
     {

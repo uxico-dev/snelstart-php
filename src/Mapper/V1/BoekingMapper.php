@@ -21,7 +21,7 @@ use SnelstartPHP\Snelstart;
 /**
  * @deprecated
  */
-final class BoekingMapper extends AbstractMapper
+class BoekingMapper extends AbstractMapper
 {
     public static function findAllInkoopfacturen(ResponseInterface $response): \Generator
     {

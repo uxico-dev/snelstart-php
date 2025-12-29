@@ -17,7 +17,7 @@ use SnelstartPHP\Request\V1 as Request;
 /**
  * @deprecated
  */
-final class BoekingConnector extends BaseConnector
+class BoekingConnector extends BaseConnector
 {
     /**
      * @return Model\Inkoopboeking[]|iterable

@@ -6,7 +6,7 @@
 
 namespace SnelstartPHP\Model;
 
-final class Kostenplaats extends SnelstartObject
+class Kostenplaats extends SnelstartObject
 {
     /**
      * De omschrijving van de kostenplaats.

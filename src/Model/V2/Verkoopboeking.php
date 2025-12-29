@@ -8,7 +8,7 @@ namespace SnelstartPHP\Model\V2;
 
 use SnelstartPHP\Model\IncassoMachtiging;
 
-final class Verkoopboeking extends Boeking
+class Verkoopboeking extends Boeking
 {
     /**
      * De klant/debiteur aan wie de factuur is gericht.

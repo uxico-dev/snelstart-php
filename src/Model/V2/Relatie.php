@@ -14,7 +14,7 @@ use SnelstartPHP\Model\NaamWaarde;
 use SnelstartPHP\Model\SnelstartObject;
 use SnelstartPHP\Model\Type as Types;
 
-final class Relatie extends SnelstartObject
+class Relatie extends SnelstartObject
 {
     /**
      * Datum waarop de gegevens van deze relatie zijn aangepast

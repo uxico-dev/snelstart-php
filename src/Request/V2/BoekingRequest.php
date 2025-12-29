@@ -10,7 +10,7 @@ use SnelstartPHP\Model\V2 as Model;
 use SnelstartPHP\Request\BaseRequest;
 use SnelstartPHP\Utils;
 
-final class BoekingRequest extends BaseRequest
+class BoekingRequest extends BaseRequest
 {
     public function findInkoopboeking(UuidInterface $uuid): RequestInterface
     {

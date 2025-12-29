@@ -6,7 +6,7 @@ namespace SnelstartPHP\Model\V2\Relatie;
 use SnelstartPHP\Model\SnelstartObject;
 use SnelstartPHP\Model\V2\Relatie;
 
-final class DoorlopendeIncassoMachtiging extends SnelstartObject
+class DoorlopendeIncassoMachtiging extends SnelstartObject
 {
     /**
      * @var string

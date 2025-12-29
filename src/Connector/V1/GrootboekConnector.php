@@ -18,7 +18,7 @@ use SnelstartPHP\Request\ODataRequestData;
 /**
  * @deprecated
  */
-final class GrootboekConnector extends BaseConnector
+class GrootboekConnector extends BaseConnector
 {
     public function find(UuidInterface $id): ?Model\Grootboek
     {

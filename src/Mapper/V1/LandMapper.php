@@ -14,7 +14,7 @@ use SnelstartPHP\Model\Land;
 /**
  * @deprecated
  */
-final class LandMapper extends AbstractMapper
+class LandMapper extends AbstractMapper
 {
     public static function find(ResponseInterface $response): Land
     {

@@ -7,7 +7,7 @@
 
 namespace SnelstartPHP\Secure\BearerToken;
 
-final class PasswordBearerToken implements BearerTokenInterface
+class PasswordBearerToken implements BearerTokenInterface
 {
     /**
      * @var string

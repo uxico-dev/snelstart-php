@@ -8,7 +8,7 @@ namespace SnelstartPHP\Model;
 
 use Ramsey\Uuid\UuidInterface;
 
-final class IncassoMachtiging extends SnelstartObject
+class IncassoMachtiging extends SnelstartObject
 {
     /**
      * De publieke sleutel (public identifier, als uuid) dat uniek een object identificeert.

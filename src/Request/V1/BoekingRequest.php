@@ -17,7 +17,7 @@ use SnelstartPHP\Request\ODataRequestDataInterface;
 /**
  * @deprecated
  */
-final class BoekingRequest extends BaseRequest
+class BoekingRequest extends BaseRequest
 {
     public static function findInkoopfactuur(ODataRequestDataInterface $ODataRequestData): RequestInterface
     {

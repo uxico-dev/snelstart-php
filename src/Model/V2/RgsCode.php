@@ -9,7 +9,7 @@ namespace SnelstartPHP\Model\V2;
 
 use SnelstartPHP\Model\BaseObject;
 
-final class RgsCode extends BaseObject
+class RgsCode extends BaseObject
 {
     /**
      * Rgs versie

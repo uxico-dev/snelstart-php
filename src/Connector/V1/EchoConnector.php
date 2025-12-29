@@ -13,7 +13,7 @@ use SnelstartPHP\Connector\BaseConnector;
 /**
  * @deprecated
  */
-final class EchoConnector extends BaseConnector
+class EchoConnector extends BaseConnector
 {
     public function echo(string $input): string
     {

@@ -6,7 +6,7 @@ use Money\Money;
 use Ramsey\Uuid\UuidInterface;
 use SnelstartPHP\Snelstart;
 
-final class SnelstartRequestRequestSerializer implements RequestSerializerInterface
+class SnelstartRequestRequestSerializer implements RequestSerializerInterface
 {
     public function uuidInterfaceToString(UuidInterface $uuid): string
     {

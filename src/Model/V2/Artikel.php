@@ -10,7 +10,7 @@ use Money\Money;
 use SnelstartPHP\Exception\PreValidationException;
 use SnelstartPHP\Model\SnelstartObject;
 
-final class Artikel extends SnelstartObject
+class Artikel extends SnelstartObject
 {
     /**
      * @var bool|null

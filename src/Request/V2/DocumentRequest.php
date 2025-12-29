@@ -14,7 +14,7 @@ use SnelstartPHP\Model\V2\Verkoopboeking;
 use SnelstartPHP\Request\BaseRequest;
 use SnelstartPHP\Utils;
 
-final class DocumentRequest extends BaseRequest
+class DocumentRequest extends BaseRequest
 {
     public function find(UuidInterface $id): RequestInterface
     {

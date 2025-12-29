@@ -8,7 +8,7 @@
 
 namespace SnelstartPHP\Secure;
 
-final class ApiSubscriptionKey implements \IteratorAggregate
+class ApiSubscriptionKey implements \IteratorAggregate
 {
     /**
      * @var array

@@ -2,7 +2,7 @@
 
 namespace SnelstartPHP\Exception;
 
-final class InvalidMapperDataException extends \LogicException
+class InvalidMapperDataException extends \LogicException
 {
     public static function mandatoryKeysAreMissing(string ...$keys): self
     {

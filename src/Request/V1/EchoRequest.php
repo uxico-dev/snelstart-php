@@ -14,7 +14,7 @@ use SnelstartPHP\Request\BaseRequest;
 /**
  * @deprecated
  */
-final class EchoRequest extends BaseRequest
+class EchoRequest extends BaseRequest
 {
     public static function echo(string $input): RequestInterface
     {

@@ -5,7 +5,7 @@ namespace SnelstartPHP\Model\V2;
 use Money\Money;
 use SnelstartPHP\Model\SnelstartObject;
 
-final class Inkoopfactuur extends SnelstartObject
+class Inkoopfactuur extends SnelstartObject
 {
     /**
      * De inkoopboeking bij de factuur

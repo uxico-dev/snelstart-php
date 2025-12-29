@@ -11,7 +11,7 @@ use Psr\Http\Message\RequestInterface;
 use Ramsey\Uuid\UuidInterface;
 use SnelstartPHP\Request\BaseRequest;
 
-final class ArtikelOmzetgroepRequest extends BaseRequest
+class ArtikelOmzetgroepRequest extends BaseRequest
 {
     public function findAll(): RequestInterface
     {

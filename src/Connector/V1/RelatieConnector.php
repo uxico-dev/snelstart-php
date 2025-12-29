@@ -20,7 +20,7 @@ use SnelstartPHP\Request\V1 as Request;
 /**
  * @deprecated
  */
-final class RelatieConnector extends BaseConnector
+class RelatieConnector extends BaseConnector
 {
     public function find(UuidInterface $id): ?Model\Relatie
     {

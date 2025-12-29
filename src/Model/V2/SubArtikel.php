@@ -8,7 +8,7 @@ namespace SnelstartPHP\Model\V2;
 
 use SnelstartPHP\Model\SnelstartObject;
 
-final class SubArtikel extends SnelstartObject
+class SubArtikel extends SnelstartObject
 {
     /**
      * @var string|null

@@ -8,7 +8,7 @@ use DateTimeImmutable;
 use SnelstartPHP\Model\BaseObject;
 use SnelstartPHP\Model\Type\BtwSoort;
 
-final class BtwTarief extends BaseObject
+class BtwTarief extends BaseObject
 {
     /**
      * @var BtwSoort

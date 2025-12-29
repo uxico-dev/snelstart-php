@@ -8,7 +8,7 @@ use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\RequestInterface;
 use SnelstartPHP\Request\BaseRequest;
 
-final class BtwTariefRequest extends BaseRequest
+class BtwTariefRequest extends BaseRequest
 {
     public function findAll(): RequestInterface
     {

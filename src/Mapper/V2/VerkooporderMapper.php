@@ -23,7 +23,7 @@ use SnelstartPHP\Model\V2\VerkooporderRegel;
 use SnelstartPHP\Model\V2\Verkoopordersjabloon;
 use SnelstartPHP\Snelstart;
 
-final class VerkooporderMapper extends AbstractMapper
+class VerkooporderMapper extends AbstractMapper
 {
     public function add(ResponseInterface $response): Verkooporder
     {

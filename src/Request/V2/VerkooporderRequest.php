@@ -13,7 +13,7 @@ use SnelstartPHP\Model\V2\Verkooporder;
 use SnelstartPHP\Request\BaseRequest;
 use SnelstartPHP\Utils;
 
-final class VerkooporderRequest extends BaseRequest
+class VerkooporderRequest extends BaseRequest
 {
     public function add(Verkooporder $verkooporder): RequestInterface
     {

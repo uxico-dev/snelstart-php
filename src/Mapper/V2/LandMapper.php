@@ -10,7 +10,7 @@ use Psr\Http\Message\ResponseInterface;
 use SnelstartPHP\Mapper\AbstractMapper;
 use SnelstartPHP\Model\Land;
 
-final class LandMapper extends AbstractMapper
+class LandMapper extends AbstractMapper
 {
     public function find(ResponseInterface $response): ?Land
     {

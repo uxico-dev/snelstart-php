@@ -9,7 +9,7 @@ use SnelstartPHP\Model\V2\Inkoopfactuur;
 use SnelstartPHP\Model\V2\Verkoopfactuur;
 use SnelstartPHP\Request\ODataRequestDataInterface;
 
-final class FactuurRequest
+class FactuurRequest
 {
     public function findInkoopfactuur(Inkoopfactuur $inkoopfactuur): RequestInterface
     {

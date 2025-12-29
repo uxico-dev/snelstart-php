@@ -8,7 +8,7 @@ namespace SnelstartPHP\Model\V2;
 
 use SnelstartPHP\Model\SnelstartObject;
 
-final class Verkoopordersjabloon extends SnelstartObject
+class Verkoopordersjabloon extends SnelstartObject
 {
     /**
      * De omschrijving van het sjabloon.

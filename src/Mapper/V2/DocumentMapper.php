@@ -11,7 +11,7 @@ use Ramsey\Uuid\Uuid;
 use SnelstartPHP\Mapper\AbstractMapper;
 use SnelstartPHP\Model\V2\Document;
 
-final class DocumentMapper extends AbstractMapper
+class DocumentMapper extends AbstractMapper
 {
     public function find(ResponseInterface $response): ?Document
     {

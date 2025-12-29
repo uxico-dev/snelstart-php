@@ -12,7 +12,7 @@ use Ramsey\Uuid\UuidInterface;
  * @deprecated
  */
 
-final class InkoopboekingBijlage extends Bijlage
+class InkoopboekingBijlage extends Bijlage
 {
     /**
      * @var UuidInterface|null

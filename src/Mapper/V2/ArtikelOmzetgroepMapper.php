@@ -17,7 +17,7 @@ use SnelstartPHP\Model\V2\Prijsafspraak;
 use SnelstartPHP\Model\V2\Relatie;
 use SnelstartPHP\Model\V2\SubArtikel;
 
-final class ArtikelOmzetgroepMapper extends AbstractMapper
+class ArtikelOmzetgroepMapper extends AbstractMapper
 {
     public function find(ResponseInterface $response): ?ArtikelOmzetgroep
     {

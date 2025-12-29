@@ -15,7 +15,7 @@ use MyCLabs\Enum\Enum;
  * @method static Incassosoort CORE()
  * @method static Incassosoort B2B()
  */
-final class Incassosoort extends Enum
+class Incassosoort extends Enum
 {
     private const GEEN  = 'Geen';
     private const CORE  = 'Core';

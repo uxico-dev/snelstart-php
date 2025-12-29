@@ -13,7 +13,7 @@ use SnelstartPHP\Model\Type as Types;
 /**
  * @deprecated
  */
-final class Dagboek extends SnelstartObject
+class Dagboek extends SnelstartObject
 {
     /**
      * Het nummer van het grootboek.

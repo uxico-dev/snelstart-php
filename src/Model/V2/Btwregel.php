@@ -10,7 +10,7 @@ use Money\Money;
 use SnelstartPHP\Model\BaseObject;
 use SnelstartPHP\Model\Type\BtwRegelSoort;
 
-final class Btwregel extends BaseObject
+class Btwregel extends BaseObject
 {
     /**
      * @var BtwRegelSoort

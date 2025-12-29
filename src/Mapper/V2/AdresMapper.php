@@ -12,7 +12,7 @@ use SnelstartPHP\Mapper\AbstractMapper;
 use SnelstartPHP\Model\Adres;
 use SnelstartPHP\Model\Land;
 
-final class AdresMapper extends AbstractMapper
+class AdresMapper extends AbstractMapper
 {
     /**
      * @param array $data

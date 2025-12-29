@@ -12,7 +12,7 @@ use SnelstartPHP\Model\IncassoMachtiging;
 /**
  * @deprecated
  */
-final class Verkoopboeking extends Boeking
+class Verkoopboeking extends Boeking
 {
     /**
      * De klant/debiteur aan wie de factuur is gericht.

@@ -15,7 +15,7 @@ use MyCLabs\Enum\Enum;
  * @method static DocumentType VERKOOPBOEKINGEN()
  * @method static DocumentType RELATIES()
  */
-final class DocumentType extends Enum
+class DocumentType extends Enum
 {
     private const INKOOPBOEKINGEN = 'Inkoopboekingen';
     private const VERKOOPBOEKINGEN = 'Verkoopboekingen';

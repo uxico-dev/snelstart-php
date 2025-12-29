@@ -14,7 +14,7 @@ use SnelstartPHP\Model\V2 as Model;
 use SnelstartPHP\Request\BaseRequest;
 use SnelstartPHP\Request\ODataRequestDataInterface;
 
-final class RelatieRequest extends BaseRequest
+class RelatieRequest extends BaseRequest
 {
     public function findAll(ODataRequestDataInterface $ODataRequestData): RequestInterface
     {

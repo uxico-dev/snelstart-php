@@ -10,7 +10,7 @@ use Psr\Http\Message\ResponseInterface;
 use SnelstartPHP\Mapper\AbstractMapper;
 use SnelstartPHP\Model\Kostenplaats;
 
-final class KostenplaatsMapper extends AbstractMapper
+class KostenplaatsMapper extends AbstractMapper
 {
     public function find(ResponseInterface $response): ?Kostenplaats
     {

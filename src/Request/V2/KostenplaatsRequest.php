@@ -13,7 +13,7 @@ use SnelstartPHP\Exception\PreValidationException;
 use SnelstartPHP\Model\Kostenplaats;
 use SnelstartPHP\Request\BaseRequest;
 
-final class KostenplaatsRequest extends BaseRequest
+class KostenplaatsRequest extends BaseRequest
 {
     public function findAll(): RequestInterface
     {

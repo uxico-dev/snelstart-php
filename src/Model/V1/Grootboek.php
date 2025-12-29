@@ -14,7 +14,7 @@ use SnelstartPHP\Model\Type\Rekeningcode;
 /**
  * @deprecated
  */
-final class Grootboek extends SnelstartObject
+class Grootboek extends SnelstartObject
 {
     /**
      * Het tijdstip waarop het grootboek is aangemaakt of voor het laatst is gewijzigd

@@ -8,6 +8,6 @@ namespace SnelstartPHP\Exception;
 
 use GuzzleHttp\Exception\ClientException;
 
-final class SnelstartResourceNotFoundException extends ClientException
+class SnelstartResourceNotFoundException extends ClientException
 {
 }

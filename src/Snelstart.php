@@ -13,7 +13,7 @@ use Money\MoneyFormatter;
 use Money\MoneyParser;
 use Money\Parser\DecimalMoneyParser;
 
-final class Snelstart
+class Snelstart
 {
     /**
      * @var MoneyFormatter|null

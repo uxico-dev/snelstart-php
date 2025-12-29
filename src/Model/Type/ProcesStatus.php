@@ -20,7 +20,7 @@ use MyCLabs\Enum\Enum;
  * @method static ProcesStatus CONTANTBON()
  * @method static ProcesStatus FACTUUR()
  */
-final class ProcesStatus extends Enum
+class ProcesStatus extends Enum
 {
     private const ORDER = 'Order';
     private const OFFERTE = 'Offerte';

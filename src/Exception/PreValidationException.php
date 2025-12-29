@@ -6,7 +6,7 @@
 
 namespace SnelstartPHP\Exception;
 
-final class PreValidationException extends \RuntimeException
+class PreValidationException extends \RuntimeException
 {
     public static function textLengthException(int $current, int $max): self
     {

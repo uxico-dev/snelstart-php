@@ -14,7 +14,7 @@ use MyCLabs\Enum\Enum;
  * @method static Rekeningcode BALANS()
  * @method static Rekeningcode WINSTENVERLIES()
  */
-final class Rekeningcode extends Enum
+class Rekeningcode extends Enum
 {
     private const BALANS            = 'Balans';
     private const WINSTENVERLIES    = 'WinstEnVerlies';

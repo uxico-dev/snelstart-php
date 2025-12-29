@@ -24,7 +24,7 @@ abstract class SnelstartObject extends BaseObject
      */
     protected $uri;
 
-    final public function __construct() {}
+    public function __construct() {}
 
     public static $editableAttributes = [
         "id"

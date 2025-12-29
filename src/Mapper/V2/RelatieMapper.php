@@ -16,7 +16,7 @@ use SnelstartPHP\Model\EmailVersturen;
 use SnelstartPHP\Model\Type as Type;
 use SnelstartPHP\Model\V2 as Model;
 
-final class RelatieMapper extends AbstractMapper
+class RelatieMapper extends AbstractMapper
 {
     public function find(ResponseInterface $response): ?Model\Relatie
     {

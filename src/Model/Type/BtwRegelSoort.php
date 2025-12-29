@@ -21,7 +21,7 @@ use MyCLabs\Enum\Enum;
  * @method static BtwRegelSoort INKOPENOVERIG()
  * @method static BtwRegelSoort INKOPENVERLEGD()
  */
-final class BtwRegelSoort extends Enum
+class BtwRegelSoort extends Enum
 {
     private const GEEN              = 'Geen';
     private const VERKOPENLAAG      = 'VerkopenLaag';

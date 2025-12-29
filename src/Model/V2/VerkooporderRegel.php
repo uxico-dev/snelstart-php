@@ -10,7 +10,7 @@ use Money\Money;
 use SnelstartPHP\Model\BaseObject;
 use SnelstartPHP\Snelstart;
 
-final class VerkooporderRegel extends BaseObject
+class VerkooporderRegel extends BaseObject
 {
     /**
      * Een container voor artikel informatie.

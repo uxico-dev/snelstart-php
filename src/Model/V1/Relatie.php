@@ -16,7 +16,7 @@ use SnelstartPHP\Model\Type as Types;
 /**
  * @deprecated
  */
-final class Relatie extends SnelstartObject
+class Relatie extends SnelstartObject
 {
     /**
      * Datum waarop de gegevens van deze relatie zijn aangepast

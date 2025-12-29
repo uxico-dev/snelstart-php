@@ -17,7 +17,7 @@ use SnelstartPHP\Model\Kostenplaats;
 use SnelstartPHP\Model\V2 as Model;
 use SnelstartPHP\Model\Type as Type;
 
-final class BoekingMapper extends AbstractMapper
+class BoekingMapper extends AbstractMapper
 {
     public function findInkoopboeking(ResponseInterface $response): Model\Inkoopboeking
     {

@@ -14,7 +14,7 @@ use SnelstartPHP\Model\Type\BtwRegelSoort;
 /**
  * @deprecated
  */
-final class Btwregel extends BaseObject
+class Btwregel extends BaseObject
 {
     /**
      * @var BtwRegelSoort

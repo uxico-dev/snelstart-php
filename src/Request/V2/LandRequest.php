@@ -11,7 +11,7 @@ use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\RequestInterface;
 use Ramsey\Uuid\UuidInterface;
 
-final class LandRequest
+class LandRequest
 {
     public function findAll(): RequestInterface
     {

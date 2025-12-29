@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace SnelstartPHP\Model;
 
-final class NaamWaarde extends BaseObject
+class NaamWaarde extends BaseObject
 {
     /**
      * @var string

@@ -14,7 +14,7 @@ use Ramsey\Uuid\UuidInterface;
 /**
  * @deprecated
  */
-final class LandRequest
+class LandRequest
 {
     public static function findAll(): RequestInterface
     {

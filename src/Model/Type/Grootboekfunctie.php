@@ -72,7 +72,7 @@ use MyCLabs\Enum\Enum;
  * @method static Grootboekfunctie ELECTRONISCHEBETALING()
  * @method static Grootboekfunctie WINSTBOEKING()
  */
-final class Grootboekfunctie extends Enum
+class Grootboekfunctie extends Enum
 {
     private const DIVERSEN                              = 'Diversen';
     private const DAGBOEKKAS                            = 'DagboekKas';

@@ -11,7 +11,7 @@ use SnelstartPHP\Model\BaseObject;
 use SnelstartPHP\Model\Kostenplaats;
 use SnelstartPHP\Model\Type\BtwSoort;
 
-final class Boekingsregel extends BaseObject
+class Boekingsregel extends BaseObject
 {
     /**
      * De omschrijving van de boekingsregel.

@@ -12,7 +12,7 @@ use SnelstartPHP\Model\BaseObject;
 /**
  * @deprecated
  */
-final class RgsCode extends BaseObject
+class RgsCode extends BaseObject
 {
     /**
      * Rgs versie

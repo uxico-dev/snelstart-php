@@ -15,7 +15,7 @@ use SnelstartPHP\Model\Type\BtwSoort;
 /**
  * @deprecated
  */
-final class Boekingsregel extends BaseObject
+class Boekingsregel extends BaseObject
 {
     /**
      * De omschrijving van de boekingsregel.

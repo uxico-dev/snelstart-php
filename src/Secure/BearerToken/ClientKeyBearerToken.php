@@ -6,7 +6,7 @@
 
 namespace SnelstartPHP\Secure\BearerToken;
 
-final class ClientKeyBearerToken implements BearerTokenInterface
+class ClientKeyBearerToken implements BearerTokenInterface
 {
     /**
      * @var string

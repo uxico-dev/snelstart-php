@@ -8,7 +8,7 @@ namespace SnelstartPHP\Secure;
 
 use SnelstartPHP\Secure\BearerToken\BearerTokenInterface;
 
-final class AccessToken implements \JsonSerializable
+class AccessToken implements \JsonSerializable
 {
     /**
      * @var string

@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace SnelstartPHP;
 
-final class Utils
+class Utils
 {
     private function __construct()
     {}

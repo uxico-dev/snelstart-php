@@ -16,7 +16,7 @@ use SnelstartPHP\Request\BaseRequest;
 use SnelstartPHP\Request\ODataRequestDataInterface;
 use SnelstartPHP\Utils;
 
-final class GrootboekRequest extends BaseRequest
+class GrootboekRequest extends BaseRequest
 {
     public function findAll(ODataRequestDataInterface $ODataRequestData): RequestInterface
     {

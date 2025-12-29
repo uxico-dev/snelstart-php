@@ -9,7 +9,7 @@ use SnelstartPHP\Mapper\AbstractMapper;
 use SnelstartPHP\Model\V2 as Model;
 use SnelstartPHP\Model\Type;
 
-final class BtwTariefMapper extends AbstractMapper
+class BtwTariefMapper extends AbstractMapper
 {
     public function findAll(ResponseInterface $response): \Generator
     {

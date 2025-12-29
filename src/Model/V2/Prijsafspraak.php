@@ -6,7 +6,7 @@ use Money\Money;
 use SnelstartPHP\Model\BaseObject;
 use SnelstartPHP\Model\Type\PrijsBepalingSoort;
 
-final class Prijsafspraak extends BaseObject
+class Prijsafspraak extends BaseObject
 {
     /**
      * @var Relatie|null

@@ -8,7 +8,7 @@ namespace SnelstartPHP\Exception;
 
 use GuzzleHttp\Exception\BadResponseException;
 
-final class SnelstartApiAccessDeniedException extends BadResponseException
+class SnelstartApiAccessDeniedException extends BadResponseException
 {
     public static function createFromParent(BadResponseException $e): self
     {

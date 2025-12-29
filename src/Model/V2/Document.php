@@ -9,7 +9,7 @@ namespace SnelstartPHP\Model\V2;
 use Ramsey\Uuid\UuidInterface;
 use SnelstartPHP\Model\SnelstartObject;
 
-final class Document extends SnelstartObject
+class Document extends SnelstartObject
 {
     /**
      * De inhoud van de bijlage.
