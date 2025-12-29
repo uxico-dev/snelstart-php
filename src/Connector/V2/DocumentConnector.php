@@ -2,7 +2,6 @@
 /**
  * @author  IntoWebDevelopment <info@intowebdevelopment.nl>
  * @project SnelstartApiPHP
- * @deprecated
  */
 
 namespace SnelstartPHP\Connector\V2;
@@ -14,7 +13,7 @@ use SnelstartPHP\Mapper\V2 as Mapper;
 use SnelstartPHP\Model\V2 as Model;
 use SnelstartPHP\Request\V2 as Request;
 
-final class DocumentConnector extends BaseConnector
+class DocumentConnector extends BaseConnector
 {
     public function find(UuidInterface $uuid): ?Model\Document
     {

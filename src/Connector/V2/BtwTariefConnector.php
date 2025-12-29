@@ -9,7 +9,7 @@ use SnelstartPHP\Mapper\V2\BtwTariefMapper;
 use SnelstartPHP\Model\V2\BtwTarief;
 use SnelstartPHP\Request\V2\BtwTariefRequest;
 
-final class BtwTariefConnector extends BaseConnector
+class BtwTariefConnector extends BaseConnector
 {
     /**
      * @return iterable<BtwTarief>

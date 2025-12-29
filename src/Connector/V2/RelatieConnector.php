@@ -17,7 +17,7 @@ use SnelstartPHP\Request\ODataRequestData;
 use SnelstartPHP\Request\ODataRequestDataInterface;
 use SnelstartPHP\Request\V2 as Request;
 
-final class RelatieConnector extends BaseConnector
+class RelatieConnector extends BaseConnector
 {
     public function find(UuidInterface $id): ?Model\Relatie
     {

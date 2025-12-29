@@ -2,7 +2,6 @@
 /**
  * @author  IntoWebDevelopment <info@intowebdevelopment.nl>
  * @project SnelstartApiPHP
- * @deprecated
  */
 
 namespace SnelstartPHP\Connector\V2;
@@ -18,7 +17,7 @@ use SnelstartPHP\Request\ODataRequestData;
 use SnelstartPHP\Request\V2 as Request;
 use SnelstartPHP\Request\ODataRequestDataInterface;
 
-final class GrootboekConnector extends BaseConnector
+class GrootboekConnector extends BaseConnector
 {
     public function find(UuidInterface $id): ?Model\Grootboek
     {

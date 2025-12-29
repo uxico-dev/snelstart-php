@@ -2,7 +2,6 @@
 /**
  * @author  IntoWebDevelopment <info@intowebdevelopment.nl>
  * @project SnelstartApiPHP
- * @deprecated
  */
 
 namespace SnelstartPHP\Connector\V2;
@@ -17,7 +16,7 @@ use SnelstartPHP\Request\ODataRequestData;
 use SnelstartPHP\Request\ODataRequestDataInterface;
 use SnelstartPHP\Request\V2 as Request;
 
-final class BoekingConnector extends BaseConnector
+class BoekingConnector extends BaseConnector
 {
     public function findInkoopboeking(UuidInterface $uuid): ?Model\Inkoopboeking
     {

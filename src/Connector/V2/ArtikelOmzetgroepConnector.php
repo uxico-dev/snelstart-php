@@ -13,7 +13,7 @@ use SnelstartPHP\Mapper\V2\ArtikelOmzetgroepMapper;
 use SnelstartPHP\Model\V2\ArtikelOmzetgroep;
 use SnelstartPHP\Request\V2\ArtikelOmzetgroepRequest;
 
-final class ArtikelOmzetgroepConnector extends BaseConnector
+class ArtikelOmzetgroepConnector extends BaseConnector
 {
     public function find(UuidInterface $id): ?ArtikelOmzetgroep
     {

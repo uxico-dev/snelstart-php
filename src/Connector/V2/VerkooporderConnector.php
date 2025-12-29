@@ -12,7 +12,7 @@ use SnelstartPHP\Mapper\V2\VerkooporderMapper;
 use SnelstartPHP\Model\V2\Verkooporder;
 use SnelstartPHP\Request\V2\VerkooporderRequest;
 
-final class VerkooporderConnector extends BaseConnector
+class VerkooporderConnector extends BaseConnector
 {
     public function add(Verkooporder $verkooporder): Verkooporder
     {

@@ -2,7 +2,6 @@
 /**
  * @author  IntoWebDevelopment <info@intowebdevelopment.nl>
  * @project SnelstartApiPHP
- * @deprecated
  */
 
 namespace SnelstartPHP\Connector\V2;
@@ -14,7 +13,7 @@ use SnelstartPHP\Mapper\V2\LandMapper;
 use SnelstartPHP\Model\Land;
 use SnelstartPHP\Request\V2\LandRequest;
 
-final class LandConnector extends BaseConnector
+class LandConnector extends BaseConnector
 {
     public function find(UuidInterface $id): ?Land
     {

@@ -14,7 +14,7 @@ use SnelstartPHP\Model\V2 as Model;
 use SnelstartPHP\Request\ODataRequestData;
 use SnelstartPHP\Request\V2 as Request;
 
-final class ArtikelConnector extends BaseConnector
+class ArtikelConnector extends BaseConnector
 {
     public function find(UuidInterface $id, ?ODataRequestData $ODataRequestData = null, ?Model\Relatie $relatie = null, ?int $aantal = null): ?Model\Artikel
     {
