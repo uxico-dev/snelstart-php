@@ -25,6 +25,12 @@ use SnelstartPHP\Snelstart;
 
 class VerkooporderMapper extends AbstractMapper
 {
+    public function find(ResponseInterface $response): Verkooporder
+    {
+        $this->setResponseData($response);
+        return $this->map(new Verkooporder());
+    }
+
     public function add(ResponseInterface $response): Verkooporder
     {
         $this->setResponseData($response);
@@ -90,7 +96,13 @@ class VerkooporderMapper extends AbstractMapper
         }
 
         if ($data["verkoopfactuur"] !== null) {
-            $verkooporder->setVerkoopfactuur(Verkoopfactuur::createFromUUID(Uuid::fromString($data["verkoopfactuur"])));
+            if(is_array($data["verkoopfactuur"])) {
+                $verkoopFactuur = Verkoopfactuur::createFromUUID(Uuid::fromString($data["verkoopfactuur"]["id"]));
+                $verkoopFactuur->setUri($data["verkoopfactuur"]["uri"]);
+            } else {
+                $verkoopFactuur = Verkoopfactuur::createFromUUID(Uuid::fromString($data["verkoopfactuur"]));
+            }
+            $verkooporder->setVerkoopfactuur($verkoopFactuur);
         }
 
         if ($data["verkoopordersjabloon"] !== null) {
