@@ -18,6 +18,7 @@ use MyCLabs\Enum\Enum;
  * @method static Dagboeksoort INKOOP()
  * @method static Dagboeksoort VERKOOP()
  * @method static Dagboeksoort MEMORIAAL()
+ * @method static Dagboeksoort BALANS()
  */
 class Dagboeksoort extends Enum
 {
@@ -28,4 +29,5 @@ class Dagboeksoort extends Enum
     private const INKOOP    = 'Inkoop';
     private const VERKOOP   = 'Verkoop';
     private const MEMORIAAL = 'Memoriaal';
+    private const BALANS    = 'Balans';
 }
