@@ -37,14 +37,14 @@ class GrootboekmutatieConnector extends BaseConnector
         $request = new Request\GrootboekmutatieRequest();
         $mapper = new Mapper\GrootboekmutatieMapper();
         $ODataRequestData = $ODataRequestData ?? new ODataRequestData();
-        $hasItems = false;
+        $count = 0;
 
         foreach ($mapper->findAll($this->connection->doRequest($request->findAll($ODataRequestData))) as $grootboekmutatie) {
-            $hasItems = true;
+            $count++;
             yield $grootboekmutatie;
         }
 
-        if ($fetchAll && $hasItems) {
+        if ($fetchAll && $count >= $ODataRequestData->getTop()) {
             if ($previousResults === null) {
                 $ODataRequestData->setSkip($ODataRequestData->getTop());
             } else {

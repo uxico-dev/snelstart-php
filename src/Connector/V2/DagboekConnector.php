@@ -23,14 +23,14 @@ class DagboekConnector extends BaseConnector
         $request = new Request\DagboekRequest();
         $mapper = new Mapper\DagboekMapper();
         $ODataRequestData = $ODataRequestData ?? new ODataRequestData();
-        $hasItems = false;
+        $count = 0;
 
         foreach ($mapper->findAll($this->connection->doRequest($request->findAll($ODataRequestData))) as $dagboek) {
-            $hasItems = true;
+            $count++;
             yield $dagboek;
         }
 
-        if ($fetchAll && $hasItems) {
+        if ($fetchAll && $count >= $ODataRequestData->getTop()) {
             if ($previousResults === null) {
                 $ODataRequestData->setSkip($ODataRequestData->getTop());
             } else {

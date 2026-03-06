@@ -37,14 +37,14 @@ class ArtikelConnector extends BaseConnector
         $artikelRequest = new Request\ArtikelRequest();
         $artikelMapper = new Mapper\ArtikelMapper();
         $ODataRequestData = $ODataRequestData ?? new ODataRequestData();
-        $hasItems = false;
+        $count = 0;
 
         foreach ($artikelMapper->findAll($this->connection->doRequest($artikelRequest->findAll($ODataRequestData, $relatie, $aantal))) as $artikel) {
-            $hasItems = true;
+            $count++;
             yield $artikel;
         }
 
-        if ($fetchAll && $hasItems) {
+        if ($fetchAll && $count >= $ODataRequestData->getTop()) {
             if ($previousResults === null) {
                 $ODataRequestData->setSkip($ODataRequestData->getTop());
             } else {
