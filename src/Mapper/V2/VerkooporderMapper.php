@@ -70,15 +70,19 @@ class VerkooporderMapper extends AbstractMapper
             $verkooporder->setKostenplaats(Kostenplaats::createFromUUID(Uuid::fromString($data["kostenplaats"]["id"])));
         }
 
-        $regels = array_map(function(array $data) {
-            return (new VerkooporderRegel())
-                ->setArtikel(Artikel::createFromUUID(Uuid::fromString($data["artikel"]["id"])))
+        $regels = array_map(function(array $data): VerkooporderRegel {
+            $regel = (new VerkooporderRegel())
                 ->setOmschrijving($data["omschrijving"])
                 ->setStuksprijs($this->getMoney($data["stuksprijs"]))
                 ->setAantal($data["aantal"])
                 ->setKortingsPercentage($data["kortingsPercentage"])
-                ->setTotaal($this->getMoney($data["totaal"]))
-            ;
+                ->setTotaal($this->getMoney($data["totaal"]));
+
+            if (isset($data["artikel"]["id"])) {
+                $regel->setArtikel(Artikel::createFromUUID(Uuid::fromString($data["artikel"]["id"])));
+            }
+
+            return $regel;
         }, $data["regels"]);
 
         $verkooporder->setRegels(...$regels);
